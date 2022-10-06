@@ -65,8 +65,7 @@ namespace KoleksiyonlarSoru1
         static void ScreenPrint(ArrayList list, string str)
         {
             Console.WriteLine(str);
-            foreach (var item in list)
-            {
+            foreach (var item in list) {
                 Console.Write(item + " - ");
             }
             Console.WriteLine();
@@ -81,8 +80,7 @@ namespace KoleksiyonlarSoru1
         {
             int sum = 0;
             int avarege = 0;
-            for (int j = 0; j < list.Count; j++)
-            {
+            for (int j = 0; j < list.Count; j++) {
                 sum += Convert.ToInt32(list[j]);
             }
             avarege = sum/list.Count;
